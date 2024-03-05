@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300&display=swap");
+
+* {
+  /* background-color: black; */
+  padding: 0;
+  margin: 0;
+  font-family: "Martel Sans", sans-serif;
+}
+nav {
+  max-width: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  height: 14em;
+  /* background-color: red; */
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  height: 9em;
+  width: 18em;
+  margin: 30px;
+}
+
+.links {
+  height: 5vh;
+  padding: 30px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.links li {
+  cursor: pointer;
+  height: 19px;
+  list-style-type: none;
+  color: white;
+  border: none;
+  padding: 7px;
+  margin: 6px;
+  border-radius: 7px;
+  background-color: orangered;
+  font-size: 11px;
+  width: 103px;
+  text-align: center;
+  font-weight: bold;
+}
+.links li:hover {
+  color: black;
+  background-color: #ffaa00;
+}
+#bar {
+  position: relative;
+  left: 8vw;
+  width: 35px;
+  height: 43px;
+}
+.hero-img {
+  /* background-color: blue; */
+  height: 100vh;
+  position: relative;
+}
+.hero-img img {
+  position: absolute;
+  width: 96%;
+  margin: 0 2% 0 2%;
+  border-radius: 30px;
+}
+#nshm {
+  font-size: 4rem;
+  font-weight: bolder;
+  color: white;
+  position: absolute;
+  top: 8em;
+  left: 10vw;
+}
+.section {
+  background-color: rgb(241, 241, 241);
+  width: 99vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.our-programmes-ul li {
+  cursor: pointer;
+}
+.our-programmes-ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.our-programmes-ul li {
+  width: 18vw;
+  background-color: red;
+  /* padding: 40px 20px; */
+  padding: 4px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  min-height: 200px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.our-programmes-ul li img {
+  width: 80px;
+  padding: 60px;
+  align-items: center;
+}
+.our-programmes-ul li p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+.our-programmes-ul li a {
+  text-decoration: none;
+}
+.our-programmes-ul > :nth-child(1) {
+  background-color: #007bc6;
+}
+.our-programmes-ul > :nth-child(2) {
+  background-color: #7cb525;
+}
+.our-programmes-ul > :nth-child(3) {
+  background-color: #33664b;
+}
+.our-programmes-ul > :nth-child(4) {
+  background-color: #3b5a9a;
+}
+.our-programmes-ul > :nth-child(5) {
+  background-color: #ffaa00;
+}
+.our-programmes-ul > :nth-child(6) {
+  background-color: #4b8fb6;
+}
+.our-programmes-ul > :nth-child(7) {
+  background-color: #85618b;
+}
+.our-programmes-ul > :nth-child(8) {
+  background-color: #1f3c58;
+}
+.our-programmes-ul li:hover {
+ background-color: red;
+}
+#sec-1-h {
+  font-size: 40px;
+}
+#explore-btn{
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px 20px;
+    margin: 30px;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    text-align: center;
+}
+#explore-btn:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+.second {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+.second > :nth-child(1) {
+  font-size: 40px;
+}
+.second > :nth-child(2) {
+  font-size: 17px;
+  padding: 40px;
+  font-style: italic;
+  text-align: center;
+}
+.second img {
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.title-2 {
+  width: 53vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.title-2 p {
+  font-size: 13px;
+  color: black;
+}
+.title-2 a {
+  text-decoration: none;
+  color: #007bc6;
+}
+
+.button button {
+  color: white;
+  background-color: orangered;
+  border: none;
+  padding: 10px;
+  margin: -1px;
+  font-size: 10px;
+}
+
+.button > :nth-child(1) {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #007bc6;
+}
+.button > :nth-child(3) {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #007bc6;
+  width: 85px;
+}
+.button > :nth-child(2) {
+  background-color: orange;
+}
+
+.button button:hover {
+  background-color: red;
+}
